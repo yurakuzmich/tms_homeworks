@@ -177,6 +177,10 @@ hr {
         color: #bdbdbd;
         padding: 5px 0 5px 10px;
     }
+    
+    .login-form input:focus {
+        outline: none;
+    }
 
     .login-form button {
         width: 100%;
