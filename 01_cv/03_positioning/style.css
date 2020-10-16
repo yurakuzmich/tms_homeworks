@@ -1,0 +1,214 @@
+/* задание 1 */
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid;
+}
+
+/* Задание 1 */
+#div_1 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+#div_2 {
+    border-color: blue;
+    top: 350px;
+    left: 350px;
+}
+
+#div_3 {
+    border-color: green;
+    top: 600px;
+    left: 600px;
+}
+
+/* Задание 2 */
+#div_4 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+#div_5 {
+    border-color: blue;
+    top: 100px;
+    left: 350px;
+}
+
+#div_6 {
+    border-color: green;
+    top: 100px;
+    left: 600px;
+}
+
+/* Задание 3 */
+#div_7 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+#div_8 {
+    border-color: blue;
+    top: 250px;
+    left: 250px;
+}
+
+#div_9 {
+    border-color: green;
+    top: 400px;
+    left: 400px;
+}
+
+/* Задание 4 */
+#div_10 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+    background: red;
+}
+
+#div_11 {
+    border-color: blue;
+    top: 250px;
+    left: 250px;
+    background: blue;
+}
+
+#div_12 {
+    border-color: green;
+    top: 400px;
+    left: 400px;
+    background: green;
+}
+
+/* Задание 5 */
+#div_13 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+    background: red;
+    z-index: 0;
+}
+
+#div_14 {
+    border-color: blue;
+    top: 250px;
+    left: 250px;
+    background: blue;
+    z-index: 1;
+}
+
+#div_15 {
+    border-color: green;
+    top: 400px;
+    left: 400px;
+    background: green;
+    z-index: 0;
+}
+
+/* Задание 6 */
+#div_16 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+    background: red;
+    z-index: 1;
+}
+
+#div_17 {
+    border-color: blue;
+    top: 250px;
+    left: 250px;
+    background: blue;
+    z-index: 0;
+}
+
+#div_18 {
+    border-color: green;
+    top: 400px;
+    left: 400px;
+    background: green;
+    z-index: 1;
+}
+
+/* Задание 7 */
+#div_19 {
+    border-color: red;
+    top: 100px;
+    left: 100px;
+    background: red;
+    z-index: 3;
+}
+
+#div_20 {
+    border-color: blue;
+    top: 250px;
+    left: 250px;
+    background: blue;
+    z-index: 2;
+}
+
+#div_21 {
+    border-color: green;
+    top: 400px;
+    left: 400px;
+    background: green;
+    z-index: 1;
+}
+
+/* задание 8 */
+#wrapper {
+    width: 500px;
+    height: 500px;
+    border: 1px dotted gray;
+    margin: 100px auto;
+    position: relative;
+}
+
+#inside {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* задание 9 */
+#wrapper9 {
+    width: 500px;
+    height: 500px;
+    border: 1px dotted gray;
+    background: green;
+    margin: 100px auto;
+    position: relative;
+}
+
+#inside1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: white;
+}
+
+#inside2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: white;
+}
+
+/* Задание 10 */
