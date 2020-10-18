@@ -37,10 +37,17 @@ tabs-gray: #333333;
 
 h1 {
     font-family: 'Raleway', sans-serif;
-            font-size: 33px;
-            font-weight: normal;
-            color: #ffffff;
-            text-transform: capitalize;
+    font-size: 33px;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    font-weight: normal;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -350,3 +357,30 @@ p {
         max-height: 220px;
         overflow: hidden;
     }
+
+.custom-section__wrapper {
+    background: url('../images/city_bg.jpg') no-repeat center center;
+    background-size: 100%;
+}
+
+.custom-section {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .custom-section h2 {
+        color: #ffffff;
+        font-weight: normal;
+        margin: 70px 0 30px 0;
+    }
+
+    .custom-section p {
+        margin: 40px 0 40px 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        color: #ffffff;
+        line-height: 25px;
