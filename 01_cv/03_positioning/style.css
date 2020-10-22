@@ -212,3 +212,245 @@ div {
 }
 
 /* Задание 10 */
+
+#wrapper10 {
+    width: 500px;
+    height: 500px;
+    border: 1px dotted gray;
+    background: none;
+    margin: 100px auto;
+    position: relative;
+}
+
+.lights10 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 100px;
+    height: 270px;
+    border: 1px solid black;
+}
+
+.light {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.light_red {
+    background: red;
+    top: 15px;
+}
+
+.light_yellow {
+    background: yellow;
+    top: 100px;
+}
+
+.light_green {
+    background: green;
+    top: 185px;
+}
+
+/* Задание 11 */
+
+.wrapper11 {
+    width: 500px;
+    height: 400px;
+    border: 1px dotted gray;
+    background: none;
+    margin: 100px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.face11 {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 180px);
+    width: 360px;
+    height: 360px;
+    border: none;
+    border-radius: 50%;
+    background: lightgreen;
+    z-index: 2;
+}
+
+.inside11 {
+    position: absolute;
+}
+
+.eye111 {
+    top: 70px;
+    left: 55px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 3;
+}
+
+.eye211 {
+    top: 70px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 4;
+}
+
+.nose11 {
+    top: 180px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: white;
+    z-index: 5;
+}
+
+.mouth11 {
+    top: 250px;
+    left: 100px;
+    width: 170px;
+    height: 20px;
+    border: none;
+    background: white;
+    z-index: 6;
+}
+
+
+/* Задание 12 */
+
+.wrapper12 {
+    width: 500px;
+    height: 400px;
+    border: 1px dotted gray;
+    background: none;
+    margin: 100px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.face12 {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 180px);
+    width: 360px;
+    height: 360px;
+    border: none;
+    border-radius: 50%;
+    background: lightgreen;
+    z-index: 2;
+}
+
+.inside12 {
+    position: absolute;
+}
+
+.eye112 {
+    top: 70px;
+    left: 55px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 30;
+}
+
+.eye212 {
+    top: 70px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 40;
+}
+
+.nose12 {
+    top: 180px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 50;
+}
+
+.mouth12 {
+    top: 100px;
+    left: 85px;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    z-index: 12;
+}
+
+.mouth12_top {
+    top: 0px;
+    left: 45px;
+    width: 280px;
+    height: 280px;
+    border: none;
+    border-radius: 50%;
+    background: lightgreen;
+    z-index: 13;
+}
+
+
+/* Задание 13 */
+
+
+.news13 {
+    width: 470px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid violet;
+    border-radius: 30px 30px 0 0;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: violet;
+    color: white;
+    text-align: center;
+}
+
+/* Задание 14 */
+
+
+.news14 {
+    width: 470px;
+    height: 100%;
+    margin: 130px auto;
+    padding: 30px;
+    border: 1px solid  rgb(192, 204, 30);
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(192, 204, 30);
+    color: white;
+    text-align: center;
+}
+
