@@ -358,6 +358,15 @@ p {
         overflow: hidden;
     }
 
+.awesome__wrapper {}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .custom-section__wrapper {
     background: url('../images/city_bg.jpg') no-repeat center center;
     background-size: 100%;
