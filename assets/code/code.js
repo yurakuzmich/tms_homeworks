@@ -10,6 +10,7 @@ window.onload = function() {
 }
 
 function setActiveStatus(event) {
+    event.preventDefault();
     // console.log(event.currentTarget);
     let clicked = event.currentTarget;
     for(let i = 0; i < changeTabButtons.length; i++) {
