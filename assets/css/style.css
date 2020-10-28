@@ -44,7 +44,8 @@ h1 {
 
 h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 33px;
+  font-size: 35px;
+  letter-spacing: 1px;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -84,17 +85,17 @@ hr {
 
 .element_common > p {
   margin: 30px 0 30px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   color: #86878b;
+  font-size: 14px;
 }
 
-p.underheader {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-}
+
 
 .button_download {
   width: 135px;
@@ -117,7 +118,7 @@ p.underheader {
 
 .button_orange {
   width: 120px;
-  height: 40px;
+  height: 45px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -144,6 +145,7 @@ p.underheader {
   top: 0;
   left: 0;
   background: #000000;
+  z-index: 10;
 }
 
 .nav {
@@ -169,10 +171,10 @@ p.underheader {
 .nav-menu a,
 .nav-menu a:visited {
   display: block;
-  margin-left: 45px;
+  margin-left: 43px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -181,12 +183,17 @@ p.underheader {
   color: #ff8b38;
 }
 
+.nav-menu a.selected {
+  color: #ff8b38;
+}
+
+
 .header__wrapper {
   background: url("../images/header_bg.jpg") no-repeat center center;
   background-size: 100%;
 }
 .header {
-  min-height: 711px;
+margin: 150px 0 100px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -279,7 +286,6 @@ p.underheader {
 }
 .social-links {
   height: 105px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -287,6 +293,7 @@ p.underheader {
 }
 
 .social-links-elements {
+  margin-right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,7 +302,7 @@ p.underheader {
 .social-links__element,
 .social-links__element:visited {
   display: block;
-  margin-left: 45px;
+  margin-left: 55px;
   color: #cccccc;
 }
 
@@ -305,6 +312,8 @@ p.underheader {
 
 .tabs__wrapper {
   background: #f5f5f5;
+  position: relative;
+  z-index: 1;
 }
 
 .tabs {
@@ -371,7 +380,7 @@ p.underheader {
   left: 0;
   width: 580px;
   height: 310px;
-  padding: 0 0 0 130px;
+  padding: 0 0 0 100px;
   display: none;
 }
 
@@ -395,6 +404,7 @@ p.underheader {
 }
 
 .awesome__colls {
+  margin-top: 40px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -441,6 +451,7 @@ p.underheader {
 }
 
 .pricing__colls {
+  margin-top: 35px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -461,13 +472,13 @@ p.underheader {
 }
 
 .pricing__coll ul li {
-  width: 340px;
-  height: 45px;
+  width: 345px;
+  height: 41px;
   background: #ffffff;
   border: 1px solid #f5f5f5;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 45px;
+  font-size: 14px;
+  line-height: 41px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -484,20 +495,30 @@ p.underheader {
 
 .pricing__coll p span {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .pricing__coll p:nth-child(2n + 1) {
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.pricing__coll p:nth-child(1) {
+  font-size: 20px;
 }
 
 .pricing__coll p:nth-child(2) {
   height: 100px;
   line-height: 50px;
-  font-size: 65px;
+  font-size: 95px;
   padding-top: 40px;
   font-family: "Raleway", sans-serif;
+}
+
+.pricing__coll p:nth-child(3) {
+  border-bottom: 1px solid #ff6a00;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .pricing__coll p.most-popular {
