@@ -82,7 +82,7 @@ hr {
 }
 
 .element_common > hr {
-  margin-top: 24px;
+  margin-top: 23px;
 }
 
 .element_common > p {
@@ -462,7 +462,7 @@ margin: 180px 0 140px 0;
 }
 
 .pricing__colls {
-  margin-top: 35px;
+  margin-top: 36px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -520,7 +520,7 @@ margin: 180px 0 140px 0;
 
 .pricing__coll p:nth-child(2) {
   height: 100px;
-  line-height: 50px;
+  line-height: 22px;
   font-size: 95px;
   padding-top: 40px;
   font-family: "Raleway", sans-serif;
@@ -553,6 +553,7 @@ margin: 180px 0 140px 0;
 }
 
 .customers__list {
+  margin-top: 30px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -560,13 +561,22 @@ margin: 180px 0 140px 0;
 }
 
 .customers__customer {
-  width: 270px;
+  width: 275px;
+}
+
+.customers__customer > p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: normal;
+  background: #f5f5f5;
+  padding: 15px 15px 30px 15px;
 }
 
 .customers__customer div {
   min-height: 70px;
   margin-top: 20px;
-  padding-left: 90px;
+  padding: 9px 0 0 90px;
   background: url("../images/avatar.png") no-repeat;
   background-position: 0, 0;
 }
@@ -587,14 +597,20 @@ margin: 180px 0 140px 0;
 .custom-section h2 {
   color: #ffffff;
   font-weight: normal;
-  margin: 70px 0 30px 0;
+  margin: 66px 0 23px 0;
+}
+
+.custom-section hr {
+  color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .custom-section p {
-  margin: 40px 0 40px 0;
+  margin: 29px 0 30px 0;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: lighter;
+  letter-spacing: 3px;
   color: #ffffff;
   line-height: 25px;
 }
@@ -603,6 +619,7 @@ margin: 180px 0 140px 0;
 }
 
 .contact {
+  padding-bottom: 83px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -657,7 +674,7 @@ margin: 180px 0 140px 0;
 .contact form textarea::placeholder {
     font-family: "Open Sans", sans-serif;
   color: #bdbdbd;
-  padding: 5px 0 5px 10px;
+  padding: 15px 0 15px 50px;
 }
 
 .contact form textarea:focus {
@@ -665,7 +682,8 @@ margin: 180px 0 140px 0;
   }
 
 .contact button {
-    margin-top: 30px;
+    margin-top: 13px;
+    width: 145px;
 }
 
 .footer__wrapper {
@@ -683,7 +701,7 @@ margin: 180px 0 140px 0;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 30px 0 15px 0;
+  margin: 40px 0 15px 0;
   color: #ffffff;
 }
 
@@ -691,4 +709,8 @@ margin: 180px 0 140px 0;
 .footer-social-links__item:visited {
   color: #ffffff;
   margin: 0 15px;
+}
+
+.footer .copyright {
+  font-size: 13px;
 }
