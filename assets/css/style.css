@@ -1403,7 +1403,7 @@ tabs-gray: #333333;
   }
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .wrapper {
     width: 100%;
     margin: 0;
@@ -1454,7 +1454,7 @@ tabs-gray: #333333;
   }
 
   .element_common {
-    padding-bottom: 30px;
+    padding: 0 5px 30px 5px;
   }
 
   .element_common > h2 {
@@ -1540,15 +1540,19 @@ tabs-gray: #333333;
   }
 
   .nav__logo {
-    display: block;
+    display: none;
   }
 
   .nav-menu {
   }
   .nav-menu ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
   .nav-menu li {
     display: inline-block;
+    min-height: 30px;
   }
   .nav-menu a,
   .nav-menu a:visited {
@@ -1557,6 +1561,7 @@ tabs-gray: #333333;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
+    line-height: 30px;
     text-decoration: none;
     color: #ffffff;
   }
