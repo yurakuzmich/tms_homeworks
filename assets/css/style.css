@@ -1403,7 +1403,7 @@ tabs-gray: #333333;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media  (max-width: 767px) {
   .wrapper {
     width: 100%;
     margin: 0;
@@ -1572,7 +1572,6 @@ tabs-gray: #333333;
   .header__wrapper {
     background: url("../images/header_bg.jpg") no-repeat center center;
     background-size: cover;
-    background-origin: border-box;
   }
   .header {
     margin: 100px 0 140px 0;
