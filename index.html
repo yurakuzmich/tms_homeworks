@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <h1>TeachMeSkills. Homeworks</h1>
-        <ul>
-            <li><a href="01_cv/index.html">Домашка № 1</a></li>
-            <li><a href="02/index.html">Домашка № 2</a></li>
-            <li><a href="01_cv/03_positioning/index.html">Домашка № 3</a></li>
-        </ul>
-    </div>    
-</body>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .wrapper {
+        width: 200px;
+        margin: 120px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        height: 60px;
+        margin: 10px 0;
+        background: #27f16abe;
+        box-shadow: 0 0 15px #757575;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: #2212b3;
+      }
+
+      button:active,
+      button:focus {
+        outline: none;
+      }
+
+      button:active {
+        box-shadow: 0 0 5px #5c5b5b, inset 0 0 15px #dddddd;
+      }
+
+      button:hover {
+          opacity: 0.9;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <button id="task1">Задание 1</button>
+      <button id="task2">Задание 2</button>
+      <button id="task3">Задание 3</button>
+      <button id="task4">Задание 4*</button>
+    </div>
+
+    <script src="code.js"></script>
+  </body>
 </html>
