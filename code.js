@@ -10,7 +10,7 @@ document.addEventListener('click', (e) => {
             //Задание 1
             const a1 = 4;
             const a2 = 'my very first string';
-            const a3 = [1, 2, 3, 4];
+            const a3 = 545456567456745454654565346343336n;
             const a4 = true;
             const a5 = { value: 4 };
             const a6 = null;
