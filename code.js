@@ -35,8 +35,14 @@ function sortUsers() {
         
     let underEigteen = users.filter(user => user.age < 18);
     let overEigteen = users.filter(user => user.age >= 18 );
+    underEigteen.sort(myArrSort);
+    overEigteen.sort(myArrSort);
     console.log(underEigteen);
     console.log(overEigteen);
+}
+
+function myArrSort(a, b) {
+    return a.age - b.age;
 }
 
 sortUsers();
