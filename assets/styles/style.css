@@ -17,7 +17,7 @@ button[data-action="show"] {
 }
 
 button[data-action="hide"] {
-  background-color: gray;
+  background-color: rgb(49, 49, 49);
 }
 
 .active {
@@ -30,15 +30,17 @@ button[data-action="hide"] {
 
 div.list-container {
   overflow: hidden;
-  transition: height 0.3s ease-out;
+  /* transition: height 300ms ease-out; */
 }
 
 div.show {
   height: 200px;
+  transition: all 300ms ease-in-out;
 }
 
 div.hide {
   height: 35px;
+  transition: all 300ms ease-in-out;
 }
 
 li {
