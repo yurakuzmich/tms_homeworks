@@ -4,22 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Tasklist</title>
   </head>
   <body>
-    <div class="wraper">
+    <div class="wrapper">
       <div class="menu">
-        <button class="menu__button-show">Показать список</button>
-        <button>Скрыть список</button>
-        <button>Добавить задачу</button>
+        <div>
+          <button class="menu__button menu__button-show">Показать список</button>
+          <button class="menu__button menu__button-hide">Скрыть список</button>
+        </div>
+        <div>
+          <button class="menu__button menu__button-add">Добавить задачу</button>
+          <button class="menu__button menu__button-clear">Очистить список</button>
+        </div>
       </div>
-      <div class="tasklist">
-
+      <div class="add-task">
+        <input class="add-task__input" type="text" placeholder="Введите задачу и нажмите Enter"/>
       </div>
+      <div class="tasklist">tasklist</div>
     </div>
+
+    <script src="./assets/js/TaskList.js"></script>
     <script src="./assets/js/code.js"></script>
   </body>
 </html>
