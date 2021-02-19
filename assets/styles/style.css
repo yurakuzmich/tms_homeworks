@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
 }
 .menu__button {
   outline: none;
@@ -54,6 +55,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50px;
+  transition: all 0.5s;
 }
 .add-task__input {
   width: 80%;
@@ -70,7 +73,7 @@ body {
 }
 
 .hide {
-  display: none;
+  height: 0px;
 }
 
 .single-task {

@@ -2,15 +2,24 @@
 // Begin class definition
 class TaskList {
 
-    constructor(showListButton, hideListButton, addTaskButton, clearButton, addTaskInput, taskListWrapper) {
+    constructor(showListButton, hideListButton, addTaskButton, clearButton, addTaskElement, addTaskInput, taskListWrapper) {
         this.showListButton = showListButton;
         this.hideListButton = hideListButton;
         this.addTaskButton = addTaskButton;
         this.clearButton = clearButton;
+        this.addTaskElement = addTaskElement;
         this.addTaskInput = addTaskInput;
         this.taskListWrapper = taskListWrapper;
         this.tasks = localStorage.getItem('tasks') ? JSON.parse(localStorage.getItem('tasks')) : [];
 
+        this.showListButton.addEventListener('click', () => {
+            this.taskListWrapper.classList.remove('hide');   
+        });
+
+        this.hideListButton.addEventListener('click', () => {
+            this.taskListWrapper.classList.add('hide');  
+        });
+        
         this.addTaskInput.addEventListener('keypress', (e) => {
             if (e.keyCode === 13) {
                 this.setTask();
